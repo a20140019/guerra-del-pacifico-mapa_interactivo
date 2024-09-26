@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6af6d4b9abff8dddccbe0aa2a80f2db6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6af6d4b9abff8dddccbe0aa2a80f2db6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6af6d4b9abff8dddccbe0aa2a80f2db6 = L.map(
+                "map_6af6d4b9abff8dddccbe0aa2a80f2db6",
+                {
+                    center: [-23.65, -70.4],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3c3a5c9b01cc1ce5db8a2a46a8940693 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+            var marker_d6ddca8ba032cd910ca113f0e3b459b0 = L.marker(
+                [-23.65, -70.4],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_d15ef0af16efa4f1292454b24dce0844 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e310c4a5420d8d5fd1fae90cac630d0 = $(`<div id="html_1e310c4a5420d8d5fd1fae90cac630d0" style="width: 100.0%; height: 100.0%;">     <b>Antofagasta (1879)</b><br>     Disputa territorial entre Bolivia y Chile por la zona rica en recursos minerales,      lo que llevó a la invasión de Antofagasta por Chile.     </div>`)[0];
+            popup_d15ef0af16efa4f1292454b24dce0844.setContent(html_1e310c4a5420d8d5fd1fae90cac630d0);
+        
+
+        marker_d6ddca8ba032cd910ca113f0e3b459b0.bindPopup(popup_d15ef0af16efa4f1292454b24dce0844)
+        ;
+
+        
+    
+    
+            marker_d6ddca8ba032cd910ca113f0e3b459b0.bindTooltip(
+                `<div>
+                     Antofagasta - Inicio del conflicto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5da5c150198191e8dfebd615cf33b471 = L.marker(
+                [-20.2167, -70.1422],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_3aa725fc11cc26672a70cdf892a9398e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9703120d8b46078f57173424c5cc906b = $(`<div id="html_9703120d8b46078f57173424c5cc906b" style="width: 100.0%; height: 100.0%;">     <b>Batalla de Iquique (21 de mayo de 1879)</b><br>     Combate naval entre el monitor peruano Huáscar y la corbeta chilena Esmeralda.     Este enfrentamiento marcó el inicio de la Guerra del Pacífico en el mar.      El Huáscar, comandado por Miguel Grau, hundió la Esmeralda.     </div>`)[0];
+            popup_3aa725fc11cc26672a70cdf892a9398e.setContent(html_9703120d8b46078f57173424c5cc906b);
+        
+
+        marker_5da5c150198191e8dfebd615cf33b471.bindPopup(popup_3aa725fc11cc26672a70cdf892a9398e)
+        ;
+
+        
+    
+    
+            marker_5da5c150198191e8dfebd615cf33b471.bindTooltip(
+                `<div>
+                     Batalla de Iquique
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c97f89589d00d374515f622db33b718c = L.marker(
+                [-23.1, -70.5],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_3790b213b3ccc33e808e63b02bde71f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6746b3d5c4b13a3a3b399239c1fae74e = $(`<div id="html_6746b3d5c4b13a3a3b399239c1fae74e" style="width: 100.0%; height: 100.0%;">     <b>Batalla de Angamos (8 de octubre de 1879)</b><br>     La escuadra chilena logra capturar al Huáscar, lo que consolidó el dominio de Chile      sobre el mar. Fue un punto de inflexión clave en la guerra marítima.     </div>`)[0];
+            popup_3790b213b3ccc33e808e63b02bde71f8.setContent(html_6746b3d5c4b13a3a3b399239c1fae74e);
+        
+
+        marker_c97f89589d00d374515f622db33b718c.bindPopup(popup_3790b213b3ccc33e808e63b02bde71f8)
+        ;
+
+        
+    
+    
+            marker_c97f89589d00d374515f622db33b718c.bindTooltip(
+                `<div>
+                     Batalla de Angamos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_268080c0674a1c77a85c2ae6f1b4d1a9 = L.marker(
+                [-19.5894, -70.2002],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_fd15a071c314e4605b632b699aa7e62e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3cf865799f0fe379b9b58b3ce66a5ff = $(`<div id="html_a3cf865799f0fe379b9b58b3ce66a5ff" style="width: 100.0%; height: 100.0%;">     <b>Desembarco de Pisagua (2 de noviembre de 1879)</b><br>     Las fuerzas chilenas desembarcan en Pisagua, iniciando la campaña terrestre de Tarapacá.      Este evento permitió a Chile establecer una cabeza de playa en territorio peruano.     </div>`)[0];
+            popup_fd15a071c314e4605b632b699aa7e62e.setContent(html_a3cf865799f0fe379b9b58b3ce66a5ff);
+        
+
+        marker_268080c0674a1c77a85c2ae6f1b4d1a9.bindPopup(popup_fd15a071c314e4605b632b699aa7e62e)
+        ;
+
+        
+    
+    
+            marker_268080c0674a1c77a85c2ae6f1b4d1a9.bindTooltip(
+                `<div>
+                     Desembarco de Pisagua
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_297afd84414a57c12578f5640c548fb4 = L.marker(
+                [-19.577, -69.7617],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_1615d96187d3c4241669943a495eb0ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88330f22ac4c08d081a337f03d98536c = $(`<div id="html_88330f22ac4c08d081a337f03d98536c" style="width: 100.0%; height: 100.0%;">     <b>Batalla de Tarapacá (27 de noviembre de 1879)</b><br>     A pesar de estar en desventaja, el ejército peruano obtuvo una victoria en esta batalla.      Fue una victoria importante en términos de moral para el Perú durante la campaña de Tarapacá.     </div>`)[0];
+            popup_1615d96187d3c4241669943a495eb0ff.setContent(html_88330f22ac4c08d081a337f03d98536c);
+        
+
+        marker_297afd84414a57c12578f5640c548fb4.bindPopup(popup_1615d96187d3c4241669943a495eb0ff)
+        ;
+
+        
+    
+    
+            marker_297afd84414a57c12578f5640c548fb4.bindTooltip(
+                `<div>
+                     Batalla de Tarapacá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bdf2a7c769855d26940a0191b1bd83d = L.marker(
+                [-18.01, -70.25],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_a7f16f11a63ec0bb9ccb6cbee08403ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e145636d1445752dd93821a25413ae8 = $(`<div id="html_4e145636d1445752dd93821a25413ae8" style="width: 100.0%; height: 100.0%;">     <b>Batalla del Alto de la Alianza (26 de mayo de 1880)</b><br>     Fuerzas chilenas derrotaron a la alianza boliviana-peruana en Tacna, lo que permitió a Chile      avanzar hacia Arica. Fue una victoria decisiva en la campaña terrestre.     </div>`)[0];
+            popup_a7f16f11a63ec0bb9ccb6cbee08403ea.setContent(html_4e145636d1445752dd93821a25413ae8);
+        
+
+        marker_1bdf2a7c769855d26940a0191b1bd83d.bindPopup(popup_a7f16f11a63ec0bb9ccb6cbee08403ea)
+        ;
+
+        
+    
+    
+            marker_1bdf2a7c769855d26940a0191b1bd83d.bindTooltip(
+                `<div>
+                     Batalla de Tacna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_222935f6bc91d6211e66c783a42929fc = L.marker(
+                [-18.47, -70.31],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_a8c14829b03e6ba564d40cfccc59c88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14ad4a6a4c6700ddb3e17aa5213c77b9 = $(`<div id="html_14ad4a6a4c6700ddb3e17aa5213c77b9" style="width: 100.0%; height: 100.0%;">     <b>Toma del Morro de Arica (7 de junio de 1880)</b><br>     Después de la Batalla de Tacna, las fuerzas chilenas capturaron el Morro de Arica.      Esta victoria selló el control chileno sobre el sur del Perú.     </div>`)[0];
+            popup_a8c14829b03e6ba564d40cfccc59c88e.setContent(html_14ad4a6a4c6700ddb3e17aa5213c77b9);
+        
+
+        marker_222935f6bc91d6211e66c783a42929fc.bindPopup(popup_a8c14829b03e6ba564d40cfccc59c88e)
+        ;
+
+        
+    
+    
+            marker_222935f6bc91d6211e66c783a42929fc.bindTooltip(
+                `<div>
+                     Toma del Morro de Arica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c5a0a3c9649edcab67d3aa966c77cbe = L.marker(
+                [-12.0464, -77.0428],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_54fc1f9aa6e177b1a92020fcbcf1d456 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e58804f75f8fff6e7e9aec7e1d8710b = $(`<div id="html_7e58804f75f8fff6e7e9aec7e1d8710b" style="width: 100.0%; height: 100.0%;">     <b>Ocupación de Lima (17 de enero de 1881)</b><br>     Tras las batallas de Chorrillos y Miraflores, las fuerzas chilenas ocuparon Lima,      la capital del Perú, marcando el colapso de la resistencia organizada en la costa.     </div>`)[0];
+            popup_54fc1f9aa6e177b1a92020fcbcf1d456.setContent(html_7e58804f75f8fff6e7e9aec7e1d8710b);
+        
+
+        marker_6c5a0a3c9649edcab67d3aa966c77cbe.bindPopup(popup_54fc1f9aa6e177b1a92020fcbcf1d456)
+        ;
+
+        
+    
+    
+            marker_6c5a0a3c9649edcab67d3aa966c77cbe.bindTooltip(
+                `<div>
+                     Ocupación de Lima
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da31f7dc11f35e69248da695539e013e = L.marker(
+                [-12.15, -77.0195],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_97ac1a9556906c648615f96f444cd915 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d65dca418919d02391ef735bd42f1eb = $(`<div id="html_7d65dca418919d02391ef735bd42f1eb" style="width: 100.0%; height: 100.0%;">     <b>Batalla de Chorrillos (13 de enero de 1881)</b><br>     Fue la batalla más grande y sangrienta de la Campaña de Lima. Las tropas chilenas      derrotaron a las defensas peruanas, allanando el camino hacia la capital.     </div>`)[0];
+            popup_97ac1a9556906c648615f96f444cd915.setContent(html_7d65dca418919d02391ef735bd42f1eb);
+        
+
+        marker_da31f7dc11f35e69248da695539e013e.bindPopup(popup_97ac1a9556906c648615f96f444cd915)
+        ;
+
+        
+    
+    
+            marker_da31f7dc11f35e69248da695539e013e.bindTooltip(
+                `<div>
+                     Batalla de Chorrillos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2cfa4967e72a88b139f385a04b69e73 = L.marker(
+                [-12.04318, -75.0395],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_c6e7aca220308fcd0bc1bebccb5ca617 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b72fac54728e118b3f1f874957ffdf25 = $(`<div id="html_b72fac54728e118b3f1f874957ffdf25" style="width: 100.0%; height: 100.0%;">     <b>Campaña de la Breña (1881-1884)</b><br>     Andrés A. Cáceres dirigió la resistencia en las montañas peruanas, organizando guerrillas      que prolongaron la guerra durante años, a pesar de la ocupación chilena de Lima.     </div>`)[0];
+            popup_c6e7aca220308fcd0bc1bebccb5ca617.setContent(html_b72fac54728e118b3f1f874957ffdf25);
+        
+
+        marker_b2cfa4967e72a88b139f385a04b69e73.bindPopup(popup_c6e7aca220308fcd0bc1bebccb5ca617)
+        ;
+
+        
+    
+    
+            marker_b2cfa4967e72a88b139f385a04b69e73.bindTooltip(
+                `<div>
+                     Resistencia en la Sierra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a845dfd6d37e8f7810409b4ac85057d2 = L.marker(
+                [-12.2684, -77.1019],
+                {}
+            ).addTo(map_6af6d4b9abff8dddccbe0aa2a80f2db6);
+        
+    
+        var popup_b6bcf9418ec9ecf9f901a2fab145ef55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bbc661651993de475b970e7579166d9 = $(`<div id="html_0bbc661651993de475b970e7579166d9" style="width: 100.0%; height: 100.0%;">     <b>Tratado de Ancón (20 de octubre de 1883)</b><br>     Firmado entre Chile y Perú, este tratado puso fin a la guerra. El Perú cedió Tarapacá a Chile,      mientras que la situación de Tacna y Arica quedó por resolver en el futuro.     </div>`)[0];
+            popup_b6bcf9418ec9ecf9f901a2fab145ef55.setContent(html_0bbc661651993de475b970e7579166d9);
+        
+
+        marker_a845dfd6d37e8f7810409b4ac85057d2.bindPopup(popup_b6bcf9418ec9ecf9f901a2fab145ef55)
+        ;
+
+        
+    
+    
+            marker_a845dfd6d37e8f7810409b4ac85057d2.bindTooltip(
+                `<div>
+                     Tratado de Ancón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
